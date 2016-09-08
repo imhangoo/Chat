@@ -94,7 +94,7 @@ public class ChatServer {
 								continue;
 							}
 							
-							ct.send(portNumber+ ": "+receivedMessage);
+							ct.send("Port " + portNumber+ ": "+receivedMessage);
 						}
 					}
 				}
